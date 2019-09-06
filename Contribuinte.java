@@ -7,6 +7,11 @@ public class Contribuinte {
     /**
      * @return the nome
      */
+    public Contribuinte(String n, String c, double b){
+        nome=n;
+        cpf=c;
+        baseCalculo=b;
+    }
     public String getNome() {
         return nome;
     }
